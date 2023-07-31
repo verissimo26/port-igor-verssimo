@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/Ai";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Main = () => {
@@ -31,10 +30,7 @@ const Main = () => {
         </div>
         <div className=" text-gray-700 p-4 m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
           <FaGithub size={20} />
-        </div>
-        <div className=" text-gray-700 p-4  m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
-          <AiOutlineMail size={20} />
-        </div>
+        </div>        
         <div className=" text-gray-700 p-4  m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
           <FaWhatsapp size={20} />
         </div>

@@ -3,14 +3,14 @@ import React from "react";
 import Image from "next/image";
 import logo from "../../public/temporary/logo.png";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/Ai";
+
 
 const Endport = () => {
   return (
     <div id="contato" className="w-full lg:h-screen">
       <div className=" bg-slate-100 max-w-[1024px] m-auto px-2 py-16 h-full w-full">
         <p className="text-xl text-center tracking-widest uppercase text-[#5651e5]">
-          entre em Contato
+          Entre em Contato 
         </p>
         <div className="grid lg:grid-cols-5 gap-8 w-full h-full ">
           <div className=" col-span-3 lg:col-span-2  shadow-lg shadow-gray-400 rounded py-4">
@@ -21,7 +21,7 @@ const Endport = () => {
             <div>
               <p className="p-4 text-center">Front-End Developer</p>
               <p className="p-4 text-center">
-                Estou disponivel para freelancer, vamos negociar
+                Estou isponivel para freelancer, vamos negociar!
               </p>
             </div>
             <div className=" text-xl  flex items-center justify-between max-w-[330px] m-auto py-4">
@@ -31,9 +31,9 @@ const Endport = () => {
               <div className=" text-gray-700 p-4 m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
                 <FaGithub size={20} />
               </div>
-              <div className=" text-gray-700 p-4  m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
+              {/* <div className=" text-gray-700 p-4  m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
                 <AiOutlineMail size={20} />
-              </div>
+              </div> */}
               <div className=" text-gray-700 p-4  m-3 rounded-full shadow-xl cursor-pointer hover:scale-125 easy-in duration-300 shadow-gray-400">
                 <FaWhatsapp size={20} />
               </div>
