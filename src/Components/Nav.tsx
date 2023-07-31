@@ -94,16 +94,17 @@ const Nav = () => {
               </p>
               <div className="flex items-center justify-between sm:w-[80%]">
                 <div className="p-3  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                  <FaLinkedinIn />
+                <a href="https://www.linkedin.com/in/igormvs2023/" > <FaLinkedinIn /></a> 
                 </div>
                 <div className="p-3  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                  <FaGithub />
+                <a href="https://github.com/verissimo26" ><FaGithub/></a> 
+
                 </div>
                 <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
-                  <FaWhatsapp />
+                 <a href="https://api.whatsapp.com/send/?phone=11912374840&text&type=phone_number&app_absent=0" ><FaWhatsapp /></a> 
                 </div>
                 <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                  <BiLogoGmail />
+                  <a href="gmail.com/"><BiLogoGmail /></a>
                 </div>
               </div>
             </div>
