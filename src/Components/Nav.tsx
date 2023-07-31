@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/Ai";
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
 
@@ -37,9 +36,7 @@ const Nav = () => {
               <li className="ml-10 uppercase hover:text-[#5651e5] duration-200 ease-in">Contato</li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} />
-          </div>
+          
         </div>
       </div>
       <div
@@ -61,7 +58,7 @@ const Nav = () => {
                 onClick={handleNav}
                 className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
               >
-                <AiOutlineClose size={25} />
+               
               </div>
             </div>
             <div className="my-4 border-b border-gray-300">
@@ -102,9 +99,7 @@ const Nav = () => {
                 <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
                   <FaWhatsapp />
                 </div>
-                <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                  <AiOutlineMail />
-                </div>
+               
               </div>
             </div>
           </div>
