@@ -26,45 +26,43 @@ const Endport = () => {
               </p>
             </div>
             <div className="flex items-center justify-evenly w-full">
-                <div className="p-3  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
+                <div className="p-3 text-[#5651e5]  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
                 <a href="https://www.linkedin.com/in/igormvs2023/" > <FaLinkedin /></a> 
                 </div>
-                <div className="p-3  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
+                <div className="p-3 text-[#5651e5]  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
                 <a href="https://github.com/verissimo26" ><FaGithub/></a> 
 
                 </div>
-                <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
+                <div className="p-3 text-[#5651e5] ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
                  <a href="https://api.whatsapp.com/send/?phone=11912374840&text&type=phone_number&app_absent=0" ><FaWhatsapp /></a> 
                 </div>
-                <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                  <a href="/"><BiLogoGmail /></a>
-                </div>
+                
             </div>
           </div>
 
           <div className=" col-span-3  w-full h-auto shadow-xl shadow-gra-400 rounded-xl lg:p-4">
             <div className="p-4 ">
               <form>
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                <div className="grid md:grid-cols-2 gap-4 w-full ">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Nome</label>
+                    <label className="uppercase text-sm py-1">Nome</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-1 flex border-gray-300"
                       type="text"
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Telefone</label>
+                    <label className="uppercase text-sm py-1">Telefone</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-1 flex border-gray-300"
                       type="text"
                     />
                   </div>
                 </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">E-mail</label>
+                <div className="flex flex-col ">
+                  <label className="uppercase text-sm py-1">E-mail</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-1 flex border-gray-300"
                     type="e-mail"
                   />
                 </div>
@@ -72,12 +70,12 @@ const Endport = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Mensagem</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg  border-gray-300"
                     rows={10}
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="mt-4 uppercase rounded-xl p-2 text-white bg-[#5651e5] hover:opacity-[0.9] ease-in duration-300">
+                  <button className="mt-2 uppercase rounded-xl p-2 text-white bg-[#5651e5] hover:opacity-[0.9] ease-in duration-300">
                     Enviar mensagem
                   </button>
                 </div>
