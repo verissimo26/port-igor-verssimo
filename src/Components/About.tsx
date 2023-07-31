@@ -15,7 +15,7 @@ const About = () => {
           interfaces e implementação de funcionalidades. Implementação de
           bibliotecas e componentes reutilizáveis para agilizar o processo de
           desenvolvimento. Realizei testes e depurações em várias etapas do
-          desenvolvimento para garantir a qualidade e o bom desempenho das
+          desenvolvimento para garantir a qualidade e o bom desempenho para 
           aplicações web.
         </p>
       </div>

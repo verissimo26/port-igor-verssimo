@@ -21,7 +21,7 @@ const Endport = () => {
             <div>
               <p className="p-4 text-center">Front-End Developer</p>
               <p className="p-4 text-center">
-                Estou disponivel para freelancer, vamos negociar!
+                Disponivel para freelancer, vamos negociar!
               </p>
             </div>
             <div className=" text-xl  flex items-center justify-between max-w-[330px] m-auto py-4">
