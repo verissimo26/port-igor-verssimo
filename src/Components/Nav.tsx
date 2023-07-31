@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { BiMenuAltRight, BiWindowClose, BiLogoGmail } from "react-icons/bi";
+import { FaGithub, FaLinkedinIn, FaWhatsapp,  } from "react-icons/fa";
 import { useState } from "react";
 
 const Nav = () => {
@@ -11,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="px-8 md:px-14 fixed top-0 w-full h-[6rem] shadow-xl z-[100] bg-white">
+    <div className="px-8 md:px-14 fixed top-0 w-full h-[4rem] shadow-xl z-[100] bg-white">
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
           <Link href="/#main">
               <ul>
@@ -36,7 +37,9 @@ const Nav = () => {
               <li className="ml-10 uppercase hover:text-[#5651e5] duration-200 ease-in">Contato</li>
             </Link>
           </ul>
-          
+          <div onClick={handleNav} className="md:hidden">
+            <BiMenuAltRight size={35} />
+          </div>
         </div>
       </div>
       <div
@@ -58,7 +61,7 @@ const Nav = () => {
                 onClick={handleNav}
                 className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
               >
-               
+                <BiWindowClose size={25} />
               </div>
             </div>
             <div className="my-4 border-b border-gray-300">
@@ -99,7 +102,9 @@ const Nav = () => {
                 <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
                   <FaWhatsapp />
                 </div>
-               
+                <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
+                  <BiLogoGmail />
+                </div>
               </div>
             </div>
           </div>
