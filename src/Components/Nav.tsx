@@ -73,7 +73,7 @@ const Nav = () => {
           <div className="flex flex-col py-4">
             <ul className="uppercase ">
               <Link href="/">
-                <li onClick={() => setNavi(false)} className="py-4 text-sm">Home</li>
+                <li onClick={() => setNavi(false)} className="py-4 text-sm ">Home</li>
               </Link>
               <Link href="/#skills">
                 <li onClick={() => setNavi(false)} className="py-4 text-sm">Skills</li>

@@ -11,7 +11,7 @@ const Endport = () => {
     <div id="contato" className="w-full lg:h-screen">
       <div className=" bg-slate-100 max-w-[1024px] m-auto px-2 py-16 h-full w-full">
         <p className="text-xl text-center tracking-widest uppercase text-[#5651e5]">
-          Entre em Contato 
+          Entre em Contato
         </p>
         <div className="grid lg:grid-cols-5 gap-8 w-full h-full ">
           <div className=" col-span-3 lg:col-span-2  shadow-lg shadow-gray-400 rounded py-4">
@@ -22,21 +22,24 @@ const Endport = () => {
             <div>
               <p className="p-4 text-center">Front-End Developer</p>
               <p className="p-4 text-center">
-                Estou disponivel para freelancer, vamos negociar!
+                Entre em contato pelo Linkedin, E-mail ou WhatsApp!
               </p>
             </div>
             <div className="flex items-center justify-evenly w-full">
-                <div className="p-3 text-[#5651e5]  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                <a href="https://www.linkedin.com/in/igormvs2023/" > <FaLinkedin /></a> 
-                </div>
-                <div className="p-3 text-[#5651e5]  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                <a href="https://github.com/verissimo26" ><FaGithub/></a> 
 
-                </div>
-                <div className="p-3 text-[#5651e5] ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
-                 <a href="https://api.whatsapp.com/send/?phone=11912374840&text&type=phone_number&app_absent=0" ><FaWhatsapp /></a> 
-                </div>
-                
+            <div className="p-3 text-gray-700 text-xl ease-in hover:bg-gray-700 hover:text-white rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
+                <a target="blank"  href="https://www.linkedin.com/in/igormvs2023/" > <FaLinkedin /></a>
+              </div>
+        
+              <div className=" text-xl text-gray-700 hover:bg-gray-700 hover:text-white p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
+                <a target="blank" href="https://api.whatsapp.com/send/?phone=11912374840&text&type=phone_number&app_absent=0" ><FaWhatsapp /></a>
+              </div>
+              <div className=" text-xl text-gray-700 hover:bg-gray-700 hover:text-white p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
+                <a target="blank" href="/gmail.com"><BiLogoGmail /></a>
+              </div>
+
+
+              
             </div>
           </div>
 
