@@ -15,7 +15,7 @@ const Nodejs = () => {
             NODE JS
           </Link>
           <Link href="/illustrator" className="text-sm md:text-xl hover:border-b">
-            ILLUSTRATOR
+            ILLUSTRAdawdaw daw da wd awTOR
           </Link>
         </ul>
       </div>

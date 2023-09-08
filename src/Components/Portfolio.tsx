@@ -6,13 +6,18 @@ import Link from "next/link";
 const data = [
   {
     id: 1,
-    title: "Designer Moderno e responsivo",
-    image: "/temporary/slider-1.png",
+    title: "Design Moderno e responsivo",
+    image: "/temporary/slider-2.png",
   },
   {
     id: 2,
-    title: "Preço Justo",
-    image: "/temporary/slider-2.png",
+    title: "Estudante de API's",
+    image: "/temporary/temp3.png",
+  },
+  {
+    id: 3,
+    title: "Melhores Práticas de programação",
+    image: "/temporary/front.png.png",
   },
  
 ];

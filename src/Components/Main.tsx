@@ -6,23 +6,20 @@ const Main = () => {
   return (
     <div id="main" className="bg-gray-50 flex flex-col h-screen w-screen bg-gradient-to-t from-slate-300 to-white">
       <div className=" w-full h-full flex flex-col justify-center mt-20 text-center ">
-        <p className="uppercase ttext-[1rem]">Vamos construir algo juntos</p>
+        <p className="uppercase text-[1.2rem] md:text-[1.5rem] ">Vamos construir algo juntos</p>
         <h1 className=" p-4 text-[1.5rem] ">
-          Olá eu sou <span className="text-[#45454e] font-bold "> Igor!</span>
+          Olá eu sou <span className="text-[#45454e] font-bold "> Igor Verissimo! </span>
         </h1>
-        <h1 className="text-[1.5rem] ">
-          <span className="text-[#5651e5] font-bold "> Freelancer!</span>
+        <h1 className="text-[2rem] md:text-[3rem] ">
+          <span className="text-[#5651e5] font-bold ">Um Web Developer Júnior!</span>
         </h1>
-        <p className="p-4 flex mx-auto w-[70%] text-sm md:text-xl">
-          Sou um desenvolvedor web experiente, com ênfase em desenvolvimento
-          React, buscando oportunidades como freelancer para projetos
-          desafiadores. Tenho sólidos conhecimentos, Sou apaixonado por criar sites incríveis e
-          estou sempre atualizado com as últimas tendências e tecnologias do
-          desenvolvimento web.
+        <p className="p-4 flex mx-auto w-[70%] text-[1.2rem] md:text-[1.5rem]">
+          Sou um desenvolvedor web júnior, com ênfase em desenvolvimento
+          Front-end, buscando minha primeira oportunidade como Web Developer, estudo desenvolvimento Web diariamente, ferramentas como Tailwind, Strapi, TypeScript, Redux, Supabase tem feito parte da minha rotina de estudos.
         </p>
         <p className="text-xl">
           {" "}
-          REACT <span className="text-[#5651e5] ">NEXT.JS</span> TAILWIND{" "}
+          REACT <span className="text-[#5651e5] ">NEXT.JS</span> TAILWIND LOVER{" "}
         </p>
       </div>
       <div className=" text-[#5651e5] flex items-center mb-32 gap-8 justify-between max-w-[60%] m-auto py-4">

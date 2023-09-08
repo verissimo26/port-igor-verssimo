@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BiMenuAltRight, BiWindowClose, BiLogoGmail } from "react-icons/bi";
-import { FaGithub, FaLinkedinIn, FaWhatsapp,  } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaWhatsapp, } from "react-icons/fa";
 import { useState } from "react";
 
 const Nav = () => {
@@ -14,11 +14,11 @@ const Nav = () => {
   return (
     <div className="px-8 md:px-14 fixed top-0 w-full h-[4rem] shadow-xl z-[100] bg-white">
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
-          <Link href="/#main">
-              <ul>
-              <li className="ml-10 text-xl font-bold uppercase text-[#5651e5] hover:opacity-[0.8] duration-200 ease-in">Igor.dev</li>
-              </ul>
-            </Link>
+        <Link href="/#main">
+          <ul>
+            <li className="ml-10 text-xl font-bold uppercase text-[#5651e5] hover:opacity-[0.8] duration-200 ease-in">Igor.dev</li>
+          </ul>
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link href="/#main">
@@ -73,19 +73,19 @@ const Nav = () => {
           <div className="flex flex-col py-4">
             <ul className="uppercase ">
               <Link href="/">
-                <li onClick={()=> setNavi(false)} className="py-4 text-sm">Home</li>
+                <li onClick={() => setNavi(false)} className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/#skills"> 
-              <li onClick={()=> setNavi(false)} className="py-4 text-sm">Skills</li>
-            </Link>
+              <Link href="/#skills">
+                <li onClick={() => setNavi(false)} className="py-4 text-sm">Skills</li>
+              </Link>
               <Link href="/#about">
-                <li onClick={()=> setNavi(false)} className="py-4 text-sm">Sobre Mim</li>
+                <li onClick={() => setNavi(false)} className="py-4 text-sm">Sobre Mim</li>
               </Link>
               <Link href="/#portfolio">
-                <li onClick={()=> setNavi(false)} className="py-4 text-sm">Projetos</li>
+                <li onClick={() => setNavi(false)} className="py-4 text-sm">Projetos</li>
               </Link>
               <Link href="/#contato">
-                <li onClick={()=> setNavi(false)} className="py-4 text-sm">Contato</li>
+                <li onClick={() => setNavi(false)} className="py-4 text-sm">Contato</li>
               </Link>
             </ul>
             <div className="pt-40">
@@ -94,17 +94,17 @@ const Nav = () => {
               </p>
               <div className="flex items-center justify-between sm:w-[80%]">
                 <div className="p-3  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                <a href="https://www.linkedin.com/in/igormvs2023/" > <FaLinkedinIn /></a> 
+                  <a href="https://www.linkedin.com/in/igormvs2023/" > <FaLinkedinIn /></a>
                 </div>
                 <div className="p-3  ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                <a href="https://github.com/verissimo26" ><FaGithub/></a> 
+                  <a href="https://github.com/verissimo26" ><FaGithub /></a>
 
                 </div>
                 <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300 ">
-                 <a href="https://api.whatsapp.com/send/?phone=11912374840&text&type=phone_number&app_absent=0" ><FaWhatsapp /></a> 
+                  <a href="https://api.whatsapp.com/send/?phone=11912374840&text&type=phone_number&app_absent=0" ><FaWhatsapp /></a>
                 </div>
                 <div className="p-3 ease-in rounded-full shadow-xl cursor-pointer shadow-gray-400 hover:scale-110 duration-300">
-                  <a href="gmail.com/"><BiLogoGmail /></a>
+                  <a href="/"><BiLogoGmail /></a>
                 </div>
               </div>
             </div>
